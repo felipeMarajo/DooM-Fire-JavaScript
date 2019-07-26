@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOOM Fire</title>
+        <style>
+            body{
+                background-color: #000;
+                display: grid;
+                justify-content: center;
+                align-items: center;
+
+            }
+            table {
+                border-collapse: collapse;
+                border: 1px solid #000;
+            }
+            td {
+                width: 50px;
+                height: 50px;
+                border: 1px solid #000;
+                text-align: center;
+                vertical-align: center;
+                font-family: monospace;
+                position: relative;
+            }
+
+            .pixel-index {
+                font-size: 10px;
+                display: inline-block;
+                position: absolute;
+                top: 2px;
+                right: 2px;
+                color: #999;
+            }
+            td.pixel {
+                width: 4px;
+                height: 4px;
+                border: 0px;
+            }
+            .fonts {
+                color: #fff;
+                font-family: Impact;
+                font-weight: bold;
+                font-size: 40px;
+            }
+            .margin {
+                margin: 6px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="fonts margin">DooM Fire</h1>
+        <div id="fireCanvas"></div>
+        <div class="margin">
+            <button onclick="destroyFireSource()">Put Out a Fire</button>
+            <button onclick="createFireSource()">Light Fire</button>
+        </div>
+        <script src="fire.js"></script>
+    </body>
+</html>
