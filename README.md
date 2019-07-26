@@ -1,4 +1,4 @@
 # DooM Fire
 <p align="center">
-![](doom-fire.gif)
+<img src="/doom-fire.gif">
 </p>
