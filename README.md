@@ -1,3 +1,3 @@
 # DooM Fire
 
-![./doom-fire.gif]
+![](doom-fire.gif)
